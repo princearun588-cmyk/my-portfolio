@@ -1,0 +1,242 @@
+[
+  {
+    "slug": "studio-introduction",
+    "title": "AI Creator Story LAB: Studio Reel",
+    "category": "AI Cinematic Films",
+    "description": "The official cinematic studio showreel and creative introduction for AI Creator Story LAB by Arun Chakravarti, exploring evocative neural storytelling, high-fidelity AI-generated visuals, and commercial direction.",
+    "creativeDirection": "Dynamic cinematic pacing, atmospheric lighting, high-concept world-building, and immersive sound design.",
+    "featured": true,
+    "year": "2026",
+    "cover": "videos/introduction.mp4",
+    "media": [
+      {
+        "type": "video",
+        "src": "videos/introduction.mp4",
+        "alt": "AI Creator Story LAB Studio Introduction Reel",
+        "aspect": "landscape"
+      }
+    ],
+    "tools": ["Runway Gen-3", "Midjourney v6", "ComfyUI", "DaVinci Resolve"],
+    "client": "AI Creator Story LAB",
+    "role": "Director & AI Creator"
+  },
+  {
+    "slug": "velora-2",
+    "title": "Velora 2: Cinematic Production",
+    "category": "AI Advertisements",
+    "description": "A high-concept commercial and cinematic visual piece featuring fluid AI motion synthesis, glossy reflections, dynamic camera trajectories, and futuristic product aesthetics.",
+    "creativeDirection": "High-contrast commercial lighting, kinetic camera sweeps, and futuristic color grading.",
+    "featured": true,
+    "year": "2026",
+    "cover": "videos/velora 2 extra.mp4",
+    "media": [
+      {
+        "type": "video",
+        "src": "videos/velora 2 extra.mp4",
+        "alt": "Velora 2 Cinematic Production Reel",
+        "aspect": "landscape"
+      }
+    ],
+    "tools": ["Flux.1", "Runway Gen-3", "After Effects", "Premiere Pro"],
+    "client": "Creative Spec Production",
+    "role": "AI Cinematographer & Visual Direction"
+  },
+  {
+    "slug": "chronicles-of-aethelgard",
+    "title": "Chronicles of Aethelgard: The Lost Beacon",
+    "category": "AI Cinematic Films",
+    "description": "An evocative sci-fi epic set across a dying star cluster. Exploring human legacy, digital consciousness, and cosmic scale through custom-prompted cinematic scenes, atmospheric particle physics, and fluid motion design.",
+    "creativeDirection": "Anamorphic 2.39:1 widescreen, moody cyan and deep slate color grade, atmospheric particulate lighting, and slow orchestral tension.",
+    "featured": true,
+    "year": "2025",
+    "cover": "posters/chronicles-aethelgard.svg",
+    "media": [
+      {
+        "type": "image",
+        "src": "posters/chronicles-aethelgard.svg",
+        "alt": "Chronicles of Aethelgard Key Art",
+        "aspect": "landscape"
+      },
+      {
+        "type": "image",
+        "src": "thumbnails/chronicles-aethelgard.svg",
+        "alt": "Deep Space Beacon Scene",
+        "aspect": "landscape"
+      },
+      {
+        "type": "image",
+        "src": "images/chronicles-aethelgard.svg",
+        "alt": "Atmospheric Production Still",
+        "aspect": "landscape"
+      }
+    ],
+    "tools": ["Midjourney v6", "Runway Gen-3 Alpha", "Topaz Video AI", "DaVinci Resolve"],
+    "client": "Independent Spec Film",
+    "role": "AI Director, Prompt Architect & Sound Designer"
+  },
+  {
+    "slug": "aura-lumina-future-scent",
+    "title": "Aura Lumina: The Future of Scent",
+    "category": "AI Advertisements",
+    "description": "A speculative luxury fragrance commercial celebrating synthetic botanicals and translucent neon glass. Designed for social discovery and luxury broadcast with hyper-detailed fluid simulations.",
+    "creativeDirection": "Glossy macro reflections, fluid physics, crystalline refraction, and hyper-precise cinematic lighting.",
+    "featured": true,
+    "year": "2025",
+    "cover": "posters/aura-lumina.svg",
+    "media": [
+      {
+        "type": "image",
+        "src": "posters/aura-lumina.svg",
+        "alt": "Aura Lumina Fragrance Bottle Reveal",
+        "aspect": "landscape"
+      },
+      {
+        "type": "image",
+        "src": "thumbnails/aura-lumina.svg",
+        "alt": "Fluid Crystalline Dynamics",
+        "aspect": "landscape"
+      },
+      {
+        "type": "image",
+        "src": "images/aura-lumina.svg",
+        "alt": "Macro Botanical Geometry",
+        "aspect": "landscape"
+      }
+    ],
+    "tools": ["Flux.1 Dev", "Luma Dream Machine", "After Effects", "Premiere Pro"],
+    "client": "Luxury Brand Spec",
+    "role": "Creative Director & AI Cinematographer"
+  },
+  {
+    "slug": "the-glass-horizon-cliffside-estate",
+    "title": "The Glass Horizon: Cliffside Sanctuary",
+    "category": "Real Estate Promotions",
+    "description": "Architectural marketing film for a conceptual cantilevered coastal estate. Showcasing dawn-to-dusk lighting transitions, infinity pool reflections, and minimalist interior styling.",
+    "creativeDirection": "Golden hour and twilight contrasts, smooth Steadicam-style AI sweeping motions, and spatial harmony.",
+    "featured": true,
+    "year": "2024",
+    "cover": "posters/glass-horizon.svg",
+    "media": [
+      {
+        "type": "image",
+        "src": "posters/glass-horizon.svg",
+        "alt": "The Glass Horizon Exterior View",
+        "aspect": "landscape"
+      },
+      {
+        "type": "image",
+        "src": "thumbnails/glass-horizon.svg",
+        "alt": "Interior Panoramic Living Space",
+        "aspect": "landscape"
+      },
+      {
+        "type": "image",
+        "src": "images/glass-horizon.svg",
+        "alt": "Cliffside Cantilever Detail",
+        "aspect": "landscape"
+      }
+    ],
+    "tools": ["Kling AI", "Midjourney v6", "Magnific AI", "CapCut Pro"],
+    "client": "Architectural Visualization",
+    "role": "Visualizer & Creative Producer"
+  },
+  {
+    "slug": "kroma-velocity-hypercar",
+    "title": "Kroma Velocity: Electric Hypercar",
+    "category": "Product Commercials",
+    "description": "A dynamic adrenaline-infused reveal commercial for an electric hypercar concept cutting through rain-slicked Tokyo highways with aerodynamic vortex trails.",
+    "creativeDirection": "High-contrast neon reflections, motion blur, aerodynamic vortex trails, and pulsing bass rhythm.",
+    "featured": false,
+    "year": "2024",
+    "cover": "posters/kroma-velocity.svg",
+    "media": [
+      {
+        "type": "image",
+        "src": "posters/kroma-velocity.svg",
+        "alt": "Kroma Velocity Hypercar Front Angle",
+        "aspect": "landscape"
+      },
+      {
+        "type": "image",
+        "src": "thumbnails/kroma-velocity.svg",
+        "alt": "Aerodynamic Airflow Simulation",
+        "aspect": "landscape"
+      },
+      {
+        "type": "image",
+        "src": "images/kroma-velocity.svg",
+        "alt": "Cockpit Neural Interface",
+        "aspect": "landscape"
+      }
+    ],
+    "tools": ["Runway Gen-3", "Flux Pro", "Logic Pro", "DaVinci Resolve"],
+    "client": "Automotive Concept Lab",
+    "role": "AI Motion Designer & Compositor"
+  },
+  {
+    "slug": "mira-valen-cybernetic-lookbook",
+    "title": "Mira Valen: Cybernetic Lookbook",
+    "category": "AI Influencer Content",
+    "description": "Editorial fashion series featuring an AI virtual model showcasing futuristic streetwear, metallic fabrics, and holographic accessories with persistent character fidelity.",
+    "creativeDirection": "Studio portraiture, soft rim lighting, tactile fabric physics, and consistent character LoRA tuning.",
+    "featured": false,
+    "year": "2025",
+    "cover": "posters/mira-valen.svg",
+    "media": [
+      {
+        "type": "image",
+        "src": "posters/mira-valen.svg",
+        "alt": "Mira Valen Virtual Persona Lookbook",
+        "aspect": "portrait"
+      },
+      {
+        "type": "image",
+        "src": "thumbnails/mira-valen.svg",
+        "alt": "Close-up Fabric Texture",
+        "aspect": "portrait"
+      },
+      {
+        "type": "image",
+        "src": "images/mira-valen.svg",
+        "alt": "Holographic Runway Silhouette",
+        "aspect": "portrait"
+      }
+    ],
+    "tools": ["Stable Diffusion XL", "ComfyUI", "Photoshop"],
+    "client": "Virtual Fashion Studio",
+    "role": "AI Stylist & Character Designer"
+  },
+  {
+    "slug": "the-memory-foundry",
+    "title": "The Memory Foundry",
+    "category": "Brand Storytelling",
+    "description": "A poetic manifesto film exploring how human memories are captured, distilled, and reimagined through artificial intelligence, bridging analog nostalgia and computational beauty.",
+    "creativeDirection": "Warm sepia tones juxtaposed against electric cyan memories, analog film grain, and deliberate pacing.",
+    "featured": false,
+    "year": "2024",
+    "cover": "posters/memory-foundry.svg",
+    "media": [
+      {
+        "type": "image",
+        "src": "posters/memory-foundry.svg",
+        "alt": "The Memory Foundry Keyframe",
+        "aspect": "landscape"
+      },
+      {
+        "type": "image",
+        "src": "thumbnails/memory-foundry.svg",
+        "alt": "Neural Memory Lattice Still",
+        "aspect": "landscape"
+      },
+      {
+        "type": "image",
+        "src": "images/memory-foundry.svg",
+        "alt": "Archive of Forgotten Dreams",
+        "aspect": "landscape"
+      }
+    ],
+    "tools": ["Runway Gen-3", "ElevenLabs", "Midjourney v6"],
+    "client": "Creative Studio Manifesto",
+    "role": "Writer & Director"
+  }
+]

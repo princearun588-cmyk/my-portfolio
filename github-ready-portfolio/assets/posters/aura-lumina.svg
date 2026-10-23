@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07090E" />
+      <stop offset="45%" stop-color="#1F0B1E" />
+      <stop offset="100%" stop-color="#281122" />
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="70%" stop-color="#DBEAFE" />
+      <stop offset="100%" stop-color="#F43F5E" />
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F43F5E" stop-opacity="0.35" />
+      <stop offset="60%" stop-color="#F43F5E" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#F43F5E" stop-opacity="0" />
+    </radialGradient>
+    <filter id="blurFilter">
+      <feGaussianBlur stdDeviation="60" />
+    </filter>
+  </defs>
+
+  <!-- Deep cinematic base -->
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+
+  <!-- Atmospheric Glow Orb -->
+  <circle cx="960" cy="520" r="480" fill="url(#glow)" filter="url(#blurFilter)"/>
+
+  <!-- Viewfinder & Film Grain Guides -->
+  <rect x="80" y="80" width="1760" height="920" fill="none" stroke="#60D8F6" stroke-width="1" opacity="0.12"/>
+  <path d="M 80 140 L 80 80 L 140 80" stroke="#F43F5E" stroke-width="2" fill="none" opacity="0.7"/>
+  <path d="M 1840 140 L 1840 80 L 1780 80" stroke="#F43F5E" stroke-width="2" fill="none" opacity="0.7"/>
+  <path d="M 80 940 L 80 1000 L 140 1000" stroke="#F43F5E" stroke-width="2" fill="none" opacity="0.7"/>
+  <path d="M 1840 940 L 1840 1000 L 1780 1000" stroke="#F43F5E" stroke-width="2" fill="none" opacity="0.7"/>
+
+  <!-- Center Crosshairs -->
+  <line x1="950" y1="540" x2="970" y2="540" stroke="#FFFFFF" stroke-width="1.5" opacity="0.5"/>
+  <line x1="960" y1="530" x2="960" y2="550" stroke="#FFFFFF" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- Creative Motif -->
+  
+      <polygon points="960,300 1180,720 740,720" stroke="#F43F5E" stroke-width="3" fill="none" opacity="0.6"/>
+      <polygon points="960,350 1130,700 790,700" stroke="#FFFFFF" stroke-width="1" stroke-dasharray="8 6" fill="none" opacity="0.3"/>
+      <line x1="600" y1="540" x2="960" y2="450" stroke="#FFFFFF" stroke-width="2" opacity="0.7"/>
+      <line x1="960" y1="450" x2="1350" y2="380" stroke="#60D8F6" stroke-width="3" opacity="0.8"/>
+      <line x1="960" y1="450" x2="1350" y2="500" stroke="#3B82F6" stroke-width="3" opacity="0.8"/>
+      <line x1="960" y1="450" x2="1350" y2="620" stroke="#F43F5E" stroke-width="3" opacity="0.8"/>
+    
+
+  <!-- Cinematic Letterbox Metadata -->
+  <text x="120" y="140" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700" letter-spacing="4" fill="#F43F5E" opacity="0.9">AI CREATOR STORY LAB // SPEC 2.39:1</text>
+  <text x="1800" y="140" text-anchor="end" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" letter-spacing="3" fill="#DBEAFE" opacity="0.6">4K CINEMATIC MASTER</text>
+
+  <!-- Tag Pill -->
+  <rect x="120" y="820" width="244" height="32" rx="16" fill="#1E293B" stroke="#F43F5E" stroke-width="1" opacity="0.9"/>
+  <text x="242" y="841" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" letter-spacing="2" fill="#FFFFFF">AI ADVERTISEMENTS</text>
+
+  <!-- Title & Subtitle -->
+  <text x="120" y="910" font-family="Georgia, serif" font-size="54" font-weight="bold" letter-spacing="1" fill="url(#textGrad)">Aura Lumina</text>
+  <text x="120" y="955" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="400" letter-spacing="1" fill="#94A3B8">Future of Scent // Commercial Spec</text>
+</svg>
